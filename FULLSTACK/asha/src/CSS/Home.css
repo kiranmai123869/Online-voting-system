@@ -1,0 +1,91 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    color: #ffffff;
+  }
+  
+  /* Container */
+  .homepage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  /* Content Box (Highlighted) */
+  .content {
+    background: rgba(0, 0, 0, 0.75); /* Dark background for contrast */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); /* Shadow for a 3D effect */
+    border: 2px solid #00bfff; /* Bright border for emphasis */
+    max-width: 500px;
+    width: 90%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect for emphasis */
+  .content:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Title */
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #00bfff; /* Bright cyan for contrast */
+  }
+  
+  /* Description */
+  .description {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #ffffff;
+  }
+  
+  /* Buttons Container */
+  .buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  /* Buttons */
+  .btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .signup-btn {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .signup-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .login-btn {
+    background-color: #28a745;
+    color: #ffffff;
+  }
+  
+  .login-btn:hover {
+    background-color: #1e7e34;
+    transform: scale(1.05);
+  }
